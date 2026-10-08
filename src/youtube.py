@@ -18,7 +18,7 @@ def get_youtube_service():
     
     return build('youtube', 'v3', credentials=creds)
 
-def fetch_liked_videos(service, max_results=100):
+def fetch_liked_videos(service, max_results=None):
     """Fetches recently liked videos. Paginate through results.
 
     If max_results is None, fetch all available liked videos (no artificial cap).
