@@ -1,0 +1,4 @@
+**/.env
+credentials/*
+src/__pycache__/
+data/*
